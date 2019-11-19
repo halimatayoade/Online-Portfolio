@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title></title>
+    <style>
+        .descriptivetext {/*referring to the div the contains the text that is describing the animations of the page*/
+            font-family: 'Century Gothic';/*Font is now Century Gothic*/
+            font-size: 36px;/*Changes the font size to 36px*/
+            float: right;/*Keeps the image to the rightm of the page*/
+            position: relative;/*Positions the image to its normal position*/
+            color: #fd8b64;/*Changes the color of the descriptive text to a salmon pinkish color*/
+            padding: 2%;/*Gives the descriptive text a paddiing of 2%*/
+        }
+
+        #vid1 {/*For the animation with the id of vid1*/
+        /*The code below is mainly the positioning of the id.*/
+            margin: 10px;
+            top: 200px;
+            position: initial;
+        }
+
+        #vid2 {/*For the animation with the id of vid2*/
+        /*The code below is mainly the positioning of the id.*/
+            right: 5000px;
+            top: 200px;
+            position: initial;
+        }
+
+        #vid3 {/*For the animation with the id of vid3*/
+        /*The code below is mainly the positioning of the id.*/
+            right: 5000px;
+            top: 200px;
+            position: initial;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <b>
+                <a href="index.html">Home</a><!--Links to the home page-->
+                <a href="art.html">Art</a><!--Links to the art gallery page-->
+                <a href="">Animation</a><!--Links to the Animation page-->
+                <a href="contacts.html">Contacts</a><!--Links to the contacts page-->
+            </b>
+        </nav>
+    </header>
+    
+    <h1><span style="color:#fd8b64; font-weight:900;">MY</span>ANIMATIONS</h1><!--Styling this span to have the text to a salmon pink colour. The font weight to be 900 therefore it is very bold-->
+    <main>
+
+        &nbsp;<video id="vid1" width="480" height="360" controls><!--The sizing of the video. Gives the video controls for volume and such. Gives the video an id-->
+            <source src="vids/animationsofar.mp4" type="video/mp4" /><!--Link the video-->
+        </video>
+        <div class="descriptivetext"><!--Assigns the text to the video linked above-->
+            <h4><b><i>"The Idea"</i> 2019</b> <i>(preview, first 30s)</i></h4>
+        </div>
+        <br /><br /> &nbsp; &nbsp; <video id="vid2" width="480" height="360" controls><!--The sizing of the video. Gives the video controls for volume and such. Gives the video an id-->
+            <source src="vids/introextro.mp4" type="video/mp4" /><!--Link the video-->
+        </video>
+        <div class="descriptivetext"><!--Assigns the text to the video linked above-->
+            <h4><b><i>"Introvert + Extrovert"</i> 2018</b></h4>
+        </div>
+        <br /><br /> &nbsp; &nbsp; <video id="vid3" width="480" height="360" controls><!--The sizing of the video. Gives the video controls for volume and such. Gives the video an id-->
+            <source src="vids/bird.mp4" type="video/mp4" /><!--Link the video-->
+        </video>
+        <div class="descriptivetext"><!--Assigns the text to the video linked above-->
+            <h4><b><i>"Bird Animation"</i> 2017</b></h4>
+        </div>
+    </main>
+</body>
+</html>

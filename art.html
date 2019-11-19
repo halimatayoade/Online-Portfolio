@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>Art </title>
+    <style>
+        .picturediv {/*The class that is the 'container' for the picture*/
+            margin: 100px;/*Gives the margin of the div a margin of 100px*/
+            padding: 5px 5px 5px 5px;/*Gives the padding that is 5 x 5 x 5 x 5 px*/
+            background-color: white;/*Give the div a background of white*/
+            position: center;/*Positions the div to the middle of the page*/
+        }
+
+        #pic1 {
+            width: calc(33% - 2px);/*Positions the first picture in the gallery to be 33% of the container for the forst row*/
+        }
+
+        #pic2 {
+            width: calc(33% - 2px);/*Positions the first picture in the gallery to be 33% of the container for the forst row*/
+        }
+        #pic3 {
+            width: calc(33% - 2px);/*Positions the first picture in the gallery to be 33% of the container for the forst row*/
+        }
+
+        #pic4 {
+            width: calc(33% - 2px);/*Positions the first picture in the gallery to be 33% of the container for the forst row*/
+        }
+
+        #pic5 {
+            width: calc(66% - 2px);/*Positions the first picture in the gallery to be 66% of the container for the forst row*/
+        }
+
+        #pic6 {
+            width: calc(99% - 2px);/*Positions the first picture in the gallery to be 99% of the container for the forst row*/
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <b>
+                <a href="index.html">Home</a>
+                <a href="art.html">Art</a>
+                <a href="animation.html">Animation</a>
+
+                <a href="contacts.html">Contacts</a>
+            </b>
+        </nav>
+    </header>
+    <h1><span style="color: #fd8b64; font-weight:900;">ART</span> GALLERY</h1><!--Styling this span to have the text to a salmon pink colour. The font weight to be 900 therefore it is very bold-->
+    <main>
+        <div class="picturediv">
+            <img id="pic1" src="img/pic2.jpg" alt="picture of girl" width="390" height="500"><!--Links and sizes the picture with an assigned id-->
+            <img id="pic2" src="img/pic5.png" alt="picture of girl" width="375" height="500"><!--Links and sizes the picture with an assigned id-->
+            <img id="pic3" src="img/pic3.jpg" width="365" height="500" /><!--Links and sizes the picture with an assigned id-->
+            <img id="pic4" src="img/goodvibes.png" width="390" height="500" /><!--Links and sizes the picture with an assigned id-->
+            <img id="pic5" src="img/006.png" width="745" height="500" /><!--Links and sizes the picture with an assigned id-->
+            <img id="pic6" src="img/apartmentscene3.png" width="1140" height="700" /><!--Links and sizes the picture with an assigned id-->
+        </div>
+    </main>
+</body>
+</html>

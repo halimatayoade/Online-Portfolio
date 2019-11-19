@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>Contacts</title>
+    <style>
+        * {
+            font-family: 'Century Gothic';/*This is the font-text for the entire page*/
+        }
+        
+        input[type="text"] {/*This styles the text box*/
+        width:300px;/*Gives the box a width of 300px*/
+        background: #fff;/*Gives the box a background of white*/
+        border: 2px solid white;/*The border of the textbox would be 2px thick, it would be solid and colored white*/
+
+        }
+        input[type="text"]:hover{/*Styles the text box when being hovered*/
+        background-color: #fd8b64;/*Give the textbox a color of pink when being hovered over*/
+        border: 2px solid black;/*Gives the textbox a border that is 2px thick, solid with a black color when hovered over*/
+        }
+        input[type="text"]:focus{/*When  the textbox is clicked on changed the color to white after the hover*/
+        background-color: #fff;
+        }
+        input[type="submit"]{/*Styles the submit button to be the color white*/
+        background: white;
+        }
+        div{
+        /*Styles the div that is the gradient box on the page*/
+        padding: 10px;/*GIves the div a padding of 10px*/
+        margin: 20px;/*Gives the div a margin of 20px*/
+        border: 2px solid white;/*Gives the div a border that is 2px think, solid with no styling and white colour*/
+        background-image:-webkit-linear-gradient(#fd8b64, #f3e7a4);/*for newer browser for the gradient to transition from pink to yellow like a margarita*/
+        background-image:-moz-linear-gradient(#fd8b64, #f3e7a4);/*for mozilla firefox browser for the gradient to transition from pink to yellow like a margarita*/
+        background-image:-o-linear-gradient(#fd8b64, #f3e7a4);/*for opera browser for the gradient to transition from pink to yellow like a margarita*/
+        position: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <b><!--Links them pages-->
+                <a href="index.html">Home</a>
+                <a href="art.html">Art</a>
+                <a href="animation.html">Animation</a>
+                <a href="contacts.html">Contacts</a>
+            </b>
+        </nav>
+    </header>
+    <h1><span style="color:#fd8b64; font-weight:900;">MY</span> CONTACTS</h1><!--Makes the my pink-->
+    
+    <div>
+        <div id="theform">
+        <!--Everything below is basic html stuff-->
+            
+                <h2>Contact Info</h2>
+                <br />
+                <p>Email: ayoadehal@gmail.com</p>
+                <br />
+                <p>Phone #: (204) 583-7744</p>
+                <br />
+                <h2>Contact Me</h2>
+                <br />
+                <form>
+                    <input type="text" name="firstname" placeholder="First Name" />
+                    <br />
+                    <br /> <input type="text" name="lastname" placeholder="Last Name" />
+                    <br>
+                    <br /><input type="text" name="emailaddress" placeholder="Please enter email here:" />
+                    <br />
+                    <br /><input type="submit" />
+                </form>
+                <br />
+                <br />
+          
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+﻿body {
+}
+
+nav a {
+    padding: 10px; /*Gives the padding of each navigation object 10px*/
+    margin: 9px; /*Gives the margin of each navigation object 9px*/
+    text-decoration: none; /*Gives the text-decoration of the text no text decoration*/
+    background-color: black; /*Gives the background color of each nav object a background of black*/
+    color: white; /*Gives the color of the text a color of white*/
+    font-family: 'Century Gothic'; /*The font type of Century Gothic */
+    transition: all .3s ease-in-out; /* Animation */
+}
+
+a:hover { /*Changes the color of the text when hovered to change to a salmon pink color*/
+    color: #fd8b64;
+    transform: scale(1.5); /*150% zoom*/
+}
+
+a:focus { /*Changes the color of the text when focused to change to a pastel yellow color*/
+    color: #f8f98f;
+}
+
+nav {
+    font-size: medium; /*Size of the font*/
+    text-align: center; /*Aligns the font to the center of the page*/
+    background: #000000; /*Gives the background of the nav bar the color of black*/
+    padding: 12px; /*Give the navigation a padding of 12px*/
+    margin: 0px; /*margin of 0px*/
+}
+
+
+
+h1 {
+    font-family: 'Century Gothic','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Century Gothis is the font, is the web browser doesn't recognize this font it will change the font another serif font on the list*/
+    font-size: 50px; /*Font size to 50px*/
+    color: black; /*Color of text is black*/
+    text-align: center; /*Changes the text to align to the center of the page at all times*/
+    position: sticky; /*Keeps the position of h1 in a stuck position*/
+}
+
+a:hover {
+    position: relative;
+    -webkit-animation: mymove 8s ease-in-out infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 3s ease-in-out infinite;
+}
+
+@-webkit-keyframes mymove {/*Same thing as the normal keyframe but for webkit*/
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 20px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes mymove {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        left: 20px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+
+
+main { /*Positioning the main text on the page*/
+    left: 200px;
+    margin: 10px;
+}
